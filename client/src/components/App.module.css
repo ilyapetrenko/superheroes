@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title {
+  font-size: 5.5rem;
+  background: linear-gradient(to bottom, #194c33, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exploreButton{
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.buttonContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.img {*/
+/*  width: 100%;*/
+/*  height: 500px;*/
+/*  object-fit: contain;*/
+/*  animation: move 3s infinite ease alternate;*/
+/*}*/
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: 300;
+}
+
